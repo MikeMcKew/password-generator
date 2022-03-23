@@ -7,7 +7,7 @@ For easy use, create a batch file to run the script:
     - It is recommended to first create a virtual environment to install requirements.txt into (python -m venv <venv-name>)
     - If you create a virtual environment, activate it with .\\\<venv-name>\scripts\activate (cd to correct directory) before installing requirements.txt
 3. Create pwdgen.bat file in a folder that is included in PATH
-4. In pwdgen.bat, add the path to Python and the path to pwdgen.py separated by a space (C:\path\to\python.exe C:\path\to\pygen.py)
+4. In pwdgen.bat, add the path to Python and the path to pwdgen.py separated by a space (C:\path\to\python.exe C:\path\to\pwdgen.py)
     - If you created a virtual environment, the path to python.exe should be .\\\<venv-name>\scripts\python.exe (copy full path to python.exe)
 5. Press Windows+R, type "pwdgen", click OK
 6. You should now have a randomly generated password on your clipboard, ready for convenient pasting!
