@@ -7,7 +7,6 @@ def main():
     password = ''
     for _ in range(0, 15):
         password += random.choice(chars)
-    print(password)
     pyperclip.copy(password)
 
 if __name__ == "__main__":
