@@ -1,12 +1,12 @@
 #! python3
 
-import string, random, pyperclip
+import string, secrets, pyperclip
 
 def main():
     chars = string.ascii_letters + string.digits + string.punctuation
     password = ''
     for _ in range(0, 15):
-        password += random.choice(chars)
+        password += secrets.choice(chars)
     pyperclip.copy(password)
 
 if __name__ == "__main__":
