@@ -1,4 +1,4 @@
-This is a simple script to generate random passwords. Intended for Windows; functionality on other OSes is not guaranteed.
+This is a simple script to generate random passwords. Intended for Windows; functionality on other OSes is not guaranteed. The secrets module requires Python version 3.6 or higher.
 
 For easy use, create a batch file to run the script:
 
