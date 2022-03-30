@@ -2,7 +2,7 @@
 
 import string, secrets, pyperclip
 
-def main():
+def generate_password():
     chars = string.ascii_letters + string.digits + string.punctuation
     password = ''
     for _ in range(15):
@@ -14,7 +14,7 @@ def main():
     ):
         pyperclip.copy(password)
     else:
-        main()
+        generate_password()
 
 if __name__ == "__main__":
-    main()
+    generate_password()
